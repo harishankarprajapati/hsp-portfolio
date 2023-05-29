@@ -28,7 +28,7 @@ table.table {
 		column-count: 3;
 		-webkit-column-gap: 1.25rem;
 		-moz-column-gap: 1.25rem;
-		column-gap: 1.25rem;
+		column-gap: 1.25rem;	
 		orphans: 1;
 		widows: 1;
 	}
@@ -41,10 +41,25 @@ table.table {
 		display: inline-block;
 		width: 100%;
 	}
+	
+
 }
 
 .form-group {
 	margin-bottom: 1rem;
+}
+@media only screen and (max-width: 767px)  {
+.the_tabs label {
+	padding: 10px 15px !important;
+	border-radius: 0.5rem 0.5rem 0rem 0rem;
+	background: #ffffff;
+	background: linear-gradient(0deg, #ffffff 0%, #d5d5d5 100%);
+	outline: 0.063rem solid #d5d5d5;
+	box-shadow: 0.063rem 0.063rem 0.063rem #555555;
+	font-weight: bold;
+	font-size: 18px !important;
+	margin: 0;
+  }
 }
 
 
